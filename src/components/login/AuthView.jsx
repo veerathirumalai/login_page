@@ -1,7 +1,7 @@
 import React from 'react';
 import './AuthPage.css'; // Keep your Ben-10 CSS file here
 
-export default function AuthView({ model, handleSubmit }) {
+export default function AuthView({ model, handleSubmit }) {//change 1
     const {
         isSignUp,
         isPasswordFocused,
