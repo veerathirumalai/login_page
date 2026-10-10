@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useAuthModel } from './AuthModel';
 import AuthView from './AuthView';
 
-export default function AuthController() {
+export default function AuthController() {//thiru changes
     const model = useAuthModel(); // Initialize Model
 
     // Controller Logic: Mouse tracking for the mascot's eyes
