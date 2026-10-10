@@ -4,7 +4,7 @@ import './AuthPage.css'; // Keep your Ben-10 CSS file here
 export default function AuthView({ model, handleSubmit }) {//change 1
     const {
         isSignUp,
-        isPasswordFocused,
+        isPasswordFocused,//change 2
         mousePos,
         updateFormData,
         toggleSignUp,
